@@ -1,0 +1,142 @@
+# Tax Filing Microservices - .gitignore
+
+##############
+# Java
+##############
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+
+##############
+# Maven
+##############
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############
+# Spring Boot
+##############
+spring-boot-*.log
+application-local.yml
+application-local.properties
+
+##############
+# IDE - IntelliJ IDEA
+##############
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+##############
+# IDE - Eclipse
+##############
+.classpath
+.project
+.settings/
+bin/
+.metadata
+
+##############
+# IDE - VS Code
+##############
+.vscode/
+*.code-workspace
+
+##############
+# OS
+##############
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+##############
+# Docker
+##############
+docker-compose.override.yml
+.env.local
+
+##############
+# Logs
+##############
+logs/
+*.log
+*.log.*
+
+##############
+# Database
+##############
+*.db
+*.sqlite
+*.h2.db
+
+##############
+# Secrets & Credentials
+##############
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+secrets/
+credentials/
+.env
+application-secrets.yml
+application-secrets.properties
+
+##############
+# Test Coverage
+##############
+*.exec
+jacoco.xml
+.jacoco/
+
+##############
+# Build artifacts
+##############
+dist/
+build/
+tmp/
+
+##############
+# Node (for potential frontend)
+##############
+node_modules/
+package-lock.json
+yarn.lock
+
+##############
+# Terraform (for infrastructure)
+##############
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+##############
+# Kubernetes
+##############
+*.kubeconfig
+
+##############
+# Temporary files
+##############
+*.tmp
+*.temp
+*.cache
